@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+:root,html,body {
+  margin: auto;
+  padding: 0;
+  font-size: 16px;
+  background: rgba(255, 212, 69,0.5);
+}
+
+#first-header {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.5rem;
+}
+
+hr {
+  width: 50%;
+  border: 1px solid black;
+}
+
+/*flex nav*/
+.flex {
+  margin-top: 5px;
+  padding: 16px 0;
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid black;
+}
+
+/*flex element*/
+.nav-link {
+  font-size: 1.5rem;
+  flex-basis: 13%;
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 620px) {
+    .nav-link {
+        flex-basis: 25%;
+    }
+    
+}
+
+@media (max-width: 396px) {
+    .nav-link {
+        flex-basis: 50%;
+    }
+}
+
+
+/* main section */
+
+#main-doc {
+font-size: 1.3rem;
+margin: 0.8rem;
+}
+
+section {
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+}
+
+header {
+  font-size: 2em;
+}
+
+code {
+  font-size: 1rem;
+  padding: 10px;
+}
+ul {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+li {
+  font-size: 1.5rem;
+  display: inline;
+  list-style-type: none;
+  padding-left: 2px;
+  font-style: normal;
+}
+
+.bording {
+  margin-top: 10px;
+  width: 10%;
+}
+
+p {
+  padding-right: 20px;
+  padding-left: 15px;
+}
+
+img {
+  width: 22px;
+  height: 22px;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+.red {
+  background: red;
+  opacity: 1;
+}
+
+code {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  width: 100%;
+  background: rgba(255, 212, 69,0.6);
+  font-size: 0.9rem;
+}
+
